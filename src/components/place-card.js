@@ -2,7 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import OutlineButton from './outline-button'
 import './place-card.css'
 
 const PlaceCard = (props) => {
@@ -16,7 +15,6 @@ const PlaceCard = (props) => {
       <div className="place-card-container1">
         <span className="place-card-text">{props.city}</span>
         <span className="place-card-text1">{props.description}</span>
-        <OutlineButton button1="Contact"></OutlineButton>
       </div>
     </div>
   )
